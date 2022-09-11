@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(247, 95, 40);
+}
+
+
+.containerBody{
+  display: grid;
+  text-align: center;
+  margin-top: 5rem;
+  padding-inline: 2rem;
+}
+
+.toggle{
+  padding: 1rem 3rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h1{
+  color: white;
+}
