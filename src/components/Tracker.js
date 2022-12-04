@@ -12,8 +12,8 @@ export default function Tracker({ toggleWidth }) {
 
     
   return (
-    <h1>
-        {toggleWidth && `Windows width: ${width}`}
+    <h1 className='text-3xl font-semibold text-center'>
+        {toggleWidth && `Windows width: ${width}`}px
     </h1>
   )
 }
